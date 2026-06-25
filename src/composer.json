@@ -1,0 +1,21 @@
+{
+    "name": "touilelhadj/biostat-php",
+    "description": "A pure-PHP biostatistics library for epidemiological and survey-based data analysis.",
+    "keywords": ["biostatistics", "statistics", "logistic-regression", "anova", "t-test", "odds-ratio", "epidemiology"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Elhadj TOUIL",
+            "email": "touilelhadj@live.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "TouilElhadj\\BiostatPhp\\": "src/"
+        }
+    }
+}

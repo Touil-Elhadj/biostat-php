@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+title: >-
+  biostat-php: a pure-PHP biostatistics library
+  for survey-based epidemiological studies
+message: >-
+  If you use this software, please cite it using
+  the metadata from this file.
+type: software
+authors:
+  - given-names: Elhadj
+    family-names: TOUIL
+    email: touilelhadj@live.com
+    orcid: 'https://orcid.org/0009-0000-2400-459X'
+    affiliation: >-
+      Faculty of Medicine, Hassiba Benbouali University
+      of Chlef (UHBC), Algeria
+repository-code: 'https://github.com/Touil-Elhadj/biostat-php'
+url: 'https://github.com/Touil-Elhadj/biostat-php'
+abstract: >-
+  biostat-php is a self-contained PHP library implementing
+  descriptive, bivariate and multivariate statistical
+  methods for survey-based epidemiological studies. It
+  provides logistic regression with the Hosmer-Lemeshow
+  test, Benjamini-Hochberg FDR adjustment, Variance
+  Inflation Factor, the Box-Tidwell test, a generalised
+  linear mixed model fitted by Penalised Quasi-Likelihood,
+  Generalised Estimating Equations with the Liang-Zeger
+  sandwich variance, and Multiple Imputation by Chained
+  Equations with inference pooling under Rubin's rules.
+  All routines are written in pure PHP with no runtime
+  dependency and have been numerically validated against
+  the corresponding R packages (stats, lme4, geepack, mice,
+  car) and IBM SPSS Statistics 25.
+keywords:
+  - biostatistics
+  - epidemiology
+  - PHP
+  - logistic-regression
+  - GLMM
+  - GEE
+  - multiple-imputation
+  - MICE
+  - Rubin-pooling
+  - VIF
+  - Box-Tidwell
+  - Benjamini-Hochberg
+  - Hosmer-Lemeshow
+license: MIT
+version: 1.0.0
+date-released: '2026-05-18'

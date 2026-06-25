@@ -1,0 +1,41 @@
+name: Method request
+description: Suggest a new statistical method or an improvement.
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: method
+    attributes:
+      label: Method
+      description: What statistical method would you like added?
+      placeholder: 'Cochran-Mantel-Haenszel χ² for stratified 2 × 2 tables'
+    validations:
+      required: true
+
+  - type: textarea
+    id: reference
+    attributes:
+      label: Peer-reviewed reference
+      placeholder: 'Mantel, N. & Haenszel, W. (1959). JNCI 22, 719-748. DOI: ...'
+    validations:
+      required: true
+
+  - type: textarea
+    id: r-equivalent
+    attributes:
+      label: R or SPSS equivalent
+      description: What command in R or SPSS produces this result?
+      placeholder: 'R: mantelhaen.test(x)'
+    validations:
+      required: true
+
+  - type: textarea
+    id: usecase
+    attributes:
+      label: Use case
+      placeholder: 'Adjusting for confounders in case-control study X'
+
+  - type: textarea
+    id: caveats
+    attributes:
+      label: Known caveats / limitations
+      placeholder: 'Requires expected count > 5 per stratum, etc.'

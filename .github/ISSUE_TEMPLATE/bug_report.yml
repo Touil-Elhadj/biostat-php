@@ -1,0 +1,54 @@
+name: Bug report
+description: Report a defect in biostat-php.
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug. If your report concerns a security
+        vulnerability, please follow `SECURITY.md` instead — do not open
+        a public issue.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      placeholder: When I call `chi2Test2x2(...)` with ..., the returned `p` is ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproducer
+    attributes:
+      label: Minimal reproducer (PHP code + inputs)
+      render: php
+      placeholder: |
+        $stats = new BiostatAnalysis();
+        $r = $stats->chi2Test2x2(45, 18, 30, 22);
+        var_dump($r);
+    validations:
+      required: true
+
+  - type: input
+    id: expected
+    attributes:
+      label: Expected output
+      placeholder: 'In R: chisq.test(...) → X-squared = 1.8027, p-value = 0.1794'
+    validations:
+      required: true
+
+  - type: input
+    id: php-version
+    attributes:
+      label: PHP version
+      placeholder: "8.2.10"
+    validations:
+      required: true
+
+  - type: input
+    id: library-version
+    attributes:
+      label: biostat-php version
+      placeholder: "1.0.0"
+    validations:
+      required: true
