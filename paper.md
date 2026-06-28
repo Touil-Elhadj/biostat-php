@@ -17,7 +17,7 @@ authors:
 affiliations:
   - name: Faculty of Medicine, Hassiba Benbouali University of Chlef (UHBC), Algeria
     index: 1
-date: 18 May 2026
+date: 28 June 2026
 bibliography: paper.bib
 ---
 
@@ -127,7 +127,7 @@ that is shipped with the library. The tolerance budget is ± 0.001 on
 χ² statistics and unadjusted *p*-values, ± 0.01 on odds ratios, ±
 0.001 on correlation coefficients and on Benjamini-Hochberg adjusted
 *p*-values, ± 0.01 on logistic-regression coefficients, and ± 0.05 on
-GLMM variance components. As of release 1.0.0 every assertion passes
+GLMM variance components. As of release 1.0.1 every assertion passes
 within these tolerances against R 4.3.0. A GitHub Actions workflow
 runs the suite on PHP 8.0, 8.1, 8.2 and 8.3 on every push.
 
@@ -146,7 +146,7 @@ rare outcomes; this caveat is reported by the routine itself.
 # Real-world use
 
 The library was extracted from the analytic engine of the
-`chlef-touilelhadj` platform, a trilingual web instrument used to
+`chlef-data-analysis` platform, a trilingual web instrument used to
 enrol 1 220 adolescents (14–19 years) in the Wilaya of Chlef, Algeria,
 during the 2025–2026 academic year. All statistical results of the
 underlying master thesis at the Hassiba Benbouali University of Chlef
