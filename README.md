@@ -10,6 +10,7 @@
 [![CI](https://github.com/Touil-Elhadj/biostat-php/actions/workflows/ci.yml/badge.svg)](https://github.com/Touil-Elhadj/biostat-php/actions)
 [![Tests](https://img.shields.io/badge/tests-PHPUnit-blue)](tests/)
 [![Status](https://img.shields.io/badge/status-active-success)](https://github.com/Touil-Elhadj/biostat-php)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21013661.svg)](https://doi.org/10.5281/zenodo.21013661)
 
 ---
 
